@@ -1,0 +1,3 @@
+insert into movie_details(movie_title,movie_language,movie_release_date,movie_image_url) values ('Avengers:End Game','English','2018-01-01','');
+insert into movie_details(movie_title,movie_language,movie_release_date,movie_image_url) values ('Spiderman:No way home','English','2020-12-10','');
+insert into movie_details(movie_title,movie_language,movie_release_date,movie_image_url) values ('Harry Potter and the Order of Phoenix','English','2021-10-22','');

@@ -19,26 +19,26 @@ import lombok.NoArgsConstructor;
 @Data
 
 @Entity
-@Table
+@Table(name="movie_details")
 public class Movie {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column
+	@Column(name="movie_id")
 	@NotNull
 	private int movieId;
 	
-	@Column
+	@Column(name="movie_title")
 	@NotBlank
 	private String movieTitle;
 	
-	@Column
+	@Column(name="movie_language")
 	private String movieLanguage;
 	
-	@Column
+	@Column(name="movie_release_date")
 	private LocalDate movieReleaseDate;
 	
-	@Column
+	@Column(name="movie_image_url")
 	@NotNull
 	private String movieImageUrl;
 
